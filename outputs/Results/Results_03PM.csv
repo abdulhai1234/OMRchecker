@@ -1,0 +1,7 @@
+"file_id","input_path","output_path","score","q1","q2","q3","q4","q5","q6","q7","q8","q9","q10","q11"
+"IMG_20201116_143512.png","samples\sample4\IMG_20201116_143512.png","outputs\CheckedOMRs\IMG_20201116_143512.png","33.0","B","D","C","B","D","C","BC","A","C","D","C"
+"IMG_20201116_150717658.png","samples\sample4\IMG_20201116_150717658.png","outputs\CheckedOMRs\IMG_20201116_150717658.png","33.0","B","D","C","B","D","C","BC","A","C","D","C"
+"IMG_20201116_150750830.png","samples\sample4\IMG_20201116_150750830.png","outputs\CheckedOMRs\IMG_20201116_150750830.png","-2.0","A","","D","C","AC","A","D","B","C","D","D"
+"IMG_20201116_143512.png","samples\sample4\IMG_20201116_143512.png","outputs\CheckedOMRs\IMG_20201116_143512.png","33.0","B","D","C","B","D","C","BC","A","C","D","C"
+"IMG_20201116_150717658.png","samples\sample4\IMG_20201116_150717658.png","outputs\CheckedOMRs\IMG_20201116_150717658.png","33.0","B","D","C","B","D","C","BC","A","C","D","C"
+"IMG_20201116_150750830.png","samples\sample4\IMG_20201116_150750830.png","outputs\CheckedOMRs\IMG_20201116_150750830.png","-2.0","A","","D","C","AC","A","D","B","C","D","D"

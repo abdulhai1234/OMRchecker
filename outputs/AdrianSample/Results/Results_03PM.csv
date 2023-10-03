@@ -1,0 +1,3 @@
+"file_id","input_path","output_path","score","q1","q2","q3","q4","q5"
+"adrian_omr.png","samples\sample2\AdrianSample\adrian_omr.png","outputs\AdrianSample\CheckedOMRs\adrian_omr.png","5.0","B","E","A","C","B"
+"adrian_omr_2.png","samples\sample2\AdrianSample\adrian_omr_2.png","outputs\AdrianSample\CheckedOMRs\adrian_omr_2.png","3.0","C","E","A","B","B"
