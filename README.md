@@ -8,7 +8,7 @@ Once you configure the OMR layout, just throw images of the sheets at the softwa
 ### 1. Install global dependencies
 To check if python3 and pip is already installed:
 
-```window
+```bash
 python --version
 python -m pip --version
 ```
@@ -28,7 +28,7 @@ To install pip - follow instructions [here](https://pip.pypa.io/en/stable/instal
 
 Recommended:
 
-```
+```bash
 python -m pip install --user --upgrade pip
 python -m pip install --user opencv-python
 python -m pip install --user opencv-contrib-python
@@ -48,14 +48,14 @@ More details on pip install openCV [here](https://www.pyimagesearch.com/2018/09/
 Clone the repo
 
 ```bash
-git clone https://github.com/Udayraj123/OMRChecker
+git clone https://github.com/abdulhai1234/OMRchecker.git
 cd OMRChecker/
 ```
 
 Install pip requirements
 
 ```bash
-python3 -m pip install --user -r requirements.txt
+python -m pip install --user -r requirements.txt
 ```
 
 _**Note:** If you face a distutils error in pip, use `--ignore-installed` flag in above command._
@@ -72,31 +72,10 @@ _**Note:** If you face a distutils error in pip, use `--ignore-installed` flag i
    ```
 2. Run OMRChecker:
    ```bash
-   python3 main.py
+   python main.py
    ```
 
 Alternatively you can also use `python3 main.py -i ./samples/sample1`.
-
-Each example in the samples folder demonstrates different ways in which OMRChecker can be used.
-
-### Common Issues
-
-<details>
-<summary>
-	1. [Windows] ERROR: Could not open requirements file<br>
-	</summary>
-Command: <code>python3 -m pip install --user -r requirements.txt</code>
-<br>
-	Link to Solution:  <a href="https://github.com/Udayraj123/OMRChecker/issues/54#issuecomment-1264569006">#54</a>
-</details>
-<details>
-<summary>
-2. [Linux] ERROR: No module named pip<br>
-</summary>
-Command: <code>python3 -m pip install --user --upgrade pip</code>
-<br>
-	Link to Solution: <a href="https://github.com/Udayraj123/OMRChecker/issues/70#issuecomment-1268094136">#70</a>
-</details>
 
 ## OMRChecker for custom OMR Sheets
 
@@ -200,40 +179,3 @@ matplotlib
 some SO answers from roughworks
 prof
 -->
-
-## Related Projects
-
-Here's a snapshot of the [Android OMR Helper App (archived)](https://github.com/Udayraj123/AndroidOMRHelper):
-
-<p align="center">
-	<a href="https://github.com/Udayraj123/AndroidOMRHelper">
-		<img height="300" src="https://raw.githubusercontent.com/wiki/Udayraj123/OMRChecker/extras/Progress/2019-04-26/images/app_flow.PNG">
-	</a>
-</p>
-
-## Stargazers over time
-
-[![Stargazers over time](https://starchart.cc/Udayraj123/OMRChecker.svg)](https://starchart.cc/Udayraj123/OMRChecker)
-
-***
-<h2 align="center">Made with ❤️ by Awesome Contributors</h2>
-
-<a href="https://github.com/Udayraj123/OMRChecker/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Udayraj123/OMRChecker" />
-</a>
-
-***
-### License
-
-[![GitHub license](https://img.shields.io/github/license/Udayraj123/OMRChecker.svg)](https://github.com/Udayraj123/OMRChecker/blob/master/LICENSE)
-
-For more details see [LICENSE](https://github.com/Udayraj123/OMRChecker/blob/master/LICENSE).
-
-### Donate
-<a href="https://www.buymeacoffee.com/Udayraj123" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a> [![paypal](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif)](https://www.paypal.me/Udayraj123/500)
-
-
-_Find OMRChecker on_ [**_Product Hunt_**](https://www.producthunt.com/posts/omr-checker/) **|** [**_Reddit_**](https://www.reddit.com/r/computervision/comments/ccbj6f/omrchecker_grade_exams_using_python_and_opencv/) **|** [**Discord**](https://discord.gg/qFv2Vqf) **|** [**Linkedin**](https://www.linkedin.com/pulse/open-source-talks-udayraj-udayraj-deshmukh/) **|** [**goodfirstissue.dev**](https://goodfirstissue.dev/language/python) **|** [**codepeak.tech**](https://www.codepeak.tech/) **|** [**fossoverflow.dev**](https://fossoverflow.dev/projects) **|** [**Interview on Console by CodeSee**](https://console.substack.com/p/console-140) **|** [**Open Source Hub**](https://opensourcehub.io/udayraj123/omrchecker)
-
- <!-- [***Hacker News***](https://news.ycombinator.com/item?id=20420602) **|** -->
- <!-- **|** [***Swyya***](https://www.swyya.com/projects/omrchecker) -->
